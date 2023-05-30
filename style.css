@@ -1,0 +1,549 @@
+*{margin: 0; padding: 0; box-sizing: border-box;font-family: 'Roboto', sans-serif;}
+
+.header{
+    width: 100%;
+    height: 90px;
+    position:fixed;
+    margin-bottom: 40px;
+}
+.header svg{
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.header svg:hover{
+    opacity:.9;
+}
+.btn-group{
+    margin-left:4rem ;
+    margin-top: 1.5rem;
+}
+.btn-group button{
+    background: #fff;
+    border: none;
+    margin: -14px;
+}
+.btn-group button i{ color: gray; padding-left: 2px;}
+.btn-group .btn-white:hover{color: rgb(0, 4, 216);}
+.btn-group .btn-white i:hover{color: rgb(0, 4, 216);}
+.nobody{display: inline-block;position:absolute; margin: 20px; padding-left: 9rem;}
+ p i{margin-left: 50px ; cursor: pointer;} span i{margin-left: 2rem; cursor: pointer;} span  .small{ margin-left: 80px; margin-top: -30px;cursor: pointer;}
+ .nobody i:hover{color:rgb(0, 4, 216);}
+ 
+ 
+ 
+ .container img{
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    max-width: 2800px;
+    object-fit:contain;
+}
+.container  h2{
+  text-align: center;
+  margin-top: 1rem;
+  font: bold 40px arial;
+  margin-bottom: 2rem;
+}
+.container p{
+    text-align: center;
+    font-size: 18px;
+}
+.container .on:hover{color: #14a1ff; letter-spacing: 5px;}
+
+.tik{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.tik button:hover{
+    color: #fff;
+    background-color:rgba(62, 65, 223, 0.804);
+    transition: .6s;
+}
+#Baslik{
+    display: flex;
+    float: left;
+    flex-basis: 50%;
+    padding-left: 2rem;
+    background-color: rgb(241, 241, 248);
+}
+#resim{
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+.orta{margin-top: 100px;}
+
+.kart{
+
+    display: flex;
+    flex-basis: 50%;    
+    flex-grow: 1;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-top: 90px;
+    cursor: pointer;
+    float: right;  
+    box-shadow: 4px 3px 10px 1px;
+    
+}
+
+
+.iki{
+   
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 1;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-top: -418px;
+    cursor: pointer;
+    float:left;  
+    box-shadow: 2px 3px 10px 3px;
+
+}
+
+
+.ücüncü{
+    
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 1;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-top: 90px;
+    cursor: pointer;
+    float: right;  
+    box-shadow: 2px 3px 10px 3px;
+    
+}
+.dort{
+   
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 1;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-top: -418px;
+    cursor: pointer;
+    float: left;  
+    box-shadow: 2px 3px 10px 3px;
+    margin-bottom: 100px;
+   
+}
+
+
+
+
+.kart #aslan:hover{
+    transform: scale(1.1); 
+}
+.iki #kaplan:hover{
+    transform: scale(1.1); 
+}
+.ücüncü #cicek:hover{
+    transform: scale(1.1); 
+}
+.ücüncü #böcek:hover{
+    transform: scale(1.1); 
+}
+.dort #cicek:hover{
+    transform: scale(1.1);
+}
+
+.slides{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+    background: linear-gradient(454deg, #4f4080, #14a1ff);
+    scroll-snap-align: start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #000;
+}
+.slides img{
+    margin-top: 30px;
+    width: 40%;
+  
+    margin-left: 200px;
+}
+.slides .conta{
+    margin-left: -20px;
+}
+
+.slides .conta h2{
+    margin-left: 50px;
+}
+.slides .conta p{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.slides .conta .buton{
+    margin-left: 30px;
+}
+/* java ile animasyonları yap moon modunda karanlık yap sonra alt taraftaki sliderları yap */
+
+.saman{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+    background: rgba(218, 150, 121, 0.404);
+    scroll-snap-align: start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #000;
+}
+.saman img{
+    margin-top: 30px;
+    width: 790px;
+    margin-left: 700px;
+}
+.saman .conta{
+    margin-left: -1300px;
+    margin-right: 600px;
+    color: #000;
+}
+
+.saman.conta h2{
+    margin-left: 50px;
+}
+.saman .conta p{
+    margin-left: 20px;
+    margin-right: 100px;
+    font-size: 18px;
+}
+.saman .conta .buton{
+    margin-left: 30px;
+}
+
+.kutu{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+    background: #c4e7ff;
+    scroll-snap-align: start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #000;
+}
+.kutu img{
+    margin-top: 30px;
+    width: 700px;
+    margin-left: 120px;
+}
+.kutu .conta{
+    margin-left: -20px;
+    color: #000;
+}
+
+.kutu .conta h2{
+    margin-left: 50px;
+}
+.kutu .conta p{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.kutu .conta .buton{
+    margin-left: 30px;
+}
+
+.purple{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+    background: rgba(249, 171, 244, 0.482);
+    scroll-snap-align: start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #000;
+}
+.purple img{
+    margin-top: 30px;
+    width: 790px;
+    margin-left: 700px;
+}
+.purple .conta{
+    margin-left: -1300px;
+    margin-right: 600px;
+    color: #000;
+}
+
+.purple.conta h2{
+    margin-left: 50px;
+}
+.purple .conta p{
+    margin-left: 20px;
+    margin-right: 100px;
+    font-size: 18px;
+}
+.purple .conta .buton{
+    margin-left: 30px;
+}
+.purple .conta .buton:hover{
+   color: rgb(204, 0, 255);
+}
+.tablo{
+    width: 100%;
+    height: 655px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+    background:#d9d9fd;
+    scroll-snap-align: start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #000;
+}
+
+
+.tablo  .conta{
+    margin-left: -20px;
+    margin-right: 100px;
+    color: rgb(0, 0, 0);
+}
+
+.tablo .icerik .conta h2{
+    margin-left: -250px;
+    
+}
+.tablo .icerik .conta p{
+    margin-left: -100px;
+    font-size: 18px;
+}
+.tablo .icerik.conta .buton{
+    margin-left: 30px;
+}
+.tablo .icerik{
+    margin-left: -500px;
+    padding-right: 130px;
+    padding-left: 2rem;
+    box-shadow: 2px 2px 1px 1px rgb(134, 116, 250);
+    padding-top:50px ;
+    padding-bottom: 5px;
+    
+}
+.tablo caption{
+    border: 1px solid #000;
+   border-left: 1px;
+   border-right: 1px;
+   border-bottom: 1px;
+}
+.tablo h5{
+    color: #4f4080;
+    text-align: center;
+    margin-bottom: 12rem;
+    margin-top: -2rem;
+    margin-left: 10rem;
+    position: absolute;
+}
+.tablo tr{cursor: pointer;}
+.tablo tr small{font-size: 13px; font:small;}
+.sayi{background:#fff; padding: 15rem;}
+.sayi .col-3{
+    padding-left:30px;
+    width: 50%;
+    height: 310px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: center;
+    flex-wrap: wrap;
+    float:left;
+}
+.sayi .col-3 p{
+    margin-top: -8rem;
+}
+.sayi .col-3 .rev{
+    margin-bottom: -103px;
+    
+}
+.sayi .col-3 h1{
+    margin-bottom: -93px;
+    margin-top: 20px;
+}
+
+
+.sayi .portakal{
+    margin-left:-89px ;
+    margin-top: -90px;
+}
+.portakal h1{font-size: 55px;}
+
+
+.sayi .ayrim{
+    padding: 230px 0px ;
+    margin-left: -90px;
+    
+}
+.sayi .baslik h2{
+    margin-bottom: 200px;
+    margin-top: -120px;
+    margin-left: -190px;
+}
+.sayi .baslik  p{
+    margin-bottom: 200px;
+    margin-top: -160px;
+    margin-left: -190px;
+    font-size: 20px;
+}
+.sayi .son{
+    margin-top: -150px;
+    margin-left: -100px;
+    margin-right: -180px;
+}
+.sayi .portakal button{
+    background: #fff;
+    width: 60px;
+    height: 34px;
+    margin-left: 350px;
+    margin-right: -350px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+.sayi .ayrim button{
+    background: #fff;
+    width: 60px;
+    height: 34px;
+    margin-left: 350px;
+    margin-right: -350px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+.sayi .col-3 i{font-size: 14px;color: #000;}
+.sayi .col-3 i:hover{color: #14a1ff}
+.explore{padding: 20px 20px 590px ; margin-bottom: 20px;}
+.explore .card{float:left;
+    margin-left: 50px;
+    margin-top: 80px;
+    height: 350px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 3px 1px rgb(167, 156, 239);
+    position:inherit;
+}
+.explore #fare:hover{
+    transform: scale(1.1); 
+}
+.explore #kedi:hover{
+    transform: scale(1.1); 
+}
+.explore #yilan:hover{
+    transform: scale(1.1); 
+}
+
+.explore img{
+        width: 300px;
+}
+
+.torture{
+    padding-top: 50px;
+    padding-bottom: 480px;
+    background:radial-gradient(circle, rgb(196, 145, 245) 0%, rgb(234, 246, 235) 100%);
+    border-radius: 20px;
+}
+
+.torture img{
+    float: right;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+
+.torture .col-6{
+  margin-left: 630px;
+}
+.cimen .col-6{
+    margin-top: -410px;
+}
+.cimen .col-6 h2{
+    margin-left: 100px;
+}
+.cimen .col-6 p{
+    padding-top: 50px;
+    margin-left: 100px;
+    font-size: 19px;
+}
+.cimen .han{
+    margin-left:105px;
+}
+
+/*end code*/
+.footer .container{padding-top: 270px;display: flex; margin-bottom: 130px; font-family: 'roboto'sans-serif;}
+.footer .container a{text-decoration: none;color: #000;}
+.footer .container a:hover{color: blue; transition-delay: .1s; }
+.container .icons{margin-top:-100px; margin-left:60rem; font-size: 30px; border-bottom: 1px solid#000; display: flex; position: absolute; transition: .5s all ease;  color: #a09d9d;}
+.container .icons i:hover{font-size: 32px;}
+
+
+/*Media yazdıktan sonra teker teker olmasını istediğimiz noktalara manuel biz getiriyoruz px gibi değerleri yüzdeye çeviriyoruz.*/
+
+
+@media (max-width:768px){
+ .btn-group{display: none;}
+ .btn-group button{display: none;}
+ .btn-group ul{display: none;}
+ .nobody{margin-right: 500px; margin-left: -130px;}
+ .nobody i,.small{display: none;}
+ .nobody .form-control{padding-right: 70px; margin-left: -70px;}
+ .container img{width: 150%; padding-right: 150px;}
+ .orta h2,p{margin-left: -20px;margin-top: 10px;}
+ .kart{ display: none;}
+ .iki{display: none;}
+ .ücüncü{display: none;}
+ .dort{display: none;}
+
+}
+
+
+
+
+
+/*
+@media (min-width: 40em){
+    .slides {display: flex;gap: 2em;}
+    .saman {display: flex;gap: 2em;}
+    .kutu{display: flex;gap: 2em;}
+    .purple{display: flex;gap: 2em;}
+
+}
+
+
+@media screen and  ( max-width:768px){
+.purple{
+        width: 100%;
+    }
+.kutu{
+    width: 100%;
+}
+.saman{
+    width: 100%;
+}
+.slides{
+    width: 100%;
+}
+}
+@media all and  ( max-width:500px){
+    body{
+        color: #14a1ff;
+    }
+    }
+
